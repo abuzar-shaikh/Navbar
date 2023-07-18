@@ -1,0 +1,19 @@
+/* .About-main{ */
+    /* border: 5px solid green; */
+  
+/* } */
+.about-heading h1 {
+  /* border: 1px solid red; */
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+.about-Ditels-photo{
+    /* border: 5px solid yellow;   */
+    display: flex;
+  padding: 50px;
+}
+.about-Dilet{
+    /* border: 5px solid rgb(49, 18, 83);   */
+    width: 70%; 
+}

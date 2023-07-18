@@ -1,0 +1,76 @@
+.MaskHome{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+}
+.into-video{
+    
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+    /* border: 5px solid yellow; */
+}
+.MaskHome::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: black;
+    /* backround blure */
+    opacity: 0.0;
+}
+.HomePage{
+    height: 100%;
+    width: 100%;
+}
+.HomePage .myName{
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    /* border: 5px solid yellow; */
+  
+}
+
+.HomePage .myName h2{
+    font-size: 3rem;
+    padding: 0.6rem 0 1.5rem;
+}
+.HomePage .myName p{
+    font-size: 25px;
+}
+/* .HomePage .myName h1{
+    font-size: 1.4rem;
+    font-weight: 200;
+text-transform: uppercase;
+} */
+.myName .btn{
+    margin: 1rem 0.9rem;
+}
+.btn-div{
+margin-top: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .HomePage .myName h2{
+        font-size: 3rem;
+    }
+    .HomePage .myName p{
+        font-size: 1.4rem;
+      
+    }
+   
+}
+
