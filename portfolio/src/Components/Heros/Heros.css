@@ -1,0 +1,143 @@
+
+.hero-btn{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background:#2978b5;
+    color: white;
+    border: 1px solid #2978b5;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    background: rgba(255,255,255,0.2);
+    color: black;
+    transition: 0.3s;
+
+}
+.hero-light-btn{
+
+    background: transparent;
+    color: black;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid black;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero-light-btn:hover{
+
+    background:black;
+ 
+    color: white;
+    transition: 0.3s;
+
+} 
+.abuzarName{
+    color: #2978b5;
+}
+.nav-option a{
+    color: black;
+    position: relative;
+  
+}
+.nav-option a:after{
+    content: "";
+    position: absolute;
+    background-color: #2978b5;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.nav-option a:hover::after{
+   width: 100%;
+}
+.nav-option a:hover{
+    color: #2978b5;
+}
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.0;
+}
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+}
+.hero .content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.content{
+    /* border: 5px solid red; */
+    width: 80%;
+}
+.hero .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    margin: auto;
+    margin-top: 10px;
+}
+.hero .content p{
+    font-size: 1.4rem;
+    font-weight: 80%;
+    margin: 10px;
+    /* text-transform: uppercase; */
+}
+.hero-btn{
+margin: 1rem 0.2rem;
+}
+.hero-light-btn{
+    margin: 1rem 0.2rem;
+    }
+.hero-btn-div{
+    margin: 30px;
+}
+.fullStack-heading{
+   
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.abuzar-name{
+    color: #2978b5;
+}
+
+@media screen and (max-width:640px){
+    .hero .content h1{
+        font-size: 3rem;
+      
+     
+    }
+    .hero .content p{
+        font-size: 1.2rem;
+       
+    }
+    .content{
+        /* border: 5px solid red; */
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

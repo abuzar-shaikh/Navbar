@@ -1,8 +1,8 @@
 import React from 'react'
 import "../StyleComp/Home.css"
-import onlyread from "../Images/onlyread.jpg"
-import myimg from "../Images/myphoto2.png"
-import vedios from "../vedio/v-abc4.mp4"
+import wallpeper from "../Images/i-abc5.jpg"
+
+
 
 
 const Home = () => {
@@ -10,10 +10,8 @@ const Home = () => {
     <div className='HomePage'>
 
    <div className='MaskHome'>
-    {/* <img src={onlyread} alt="homeIng" className='into-img' /> */}
-    <video autoPlay loop muted playsInline className='into-video'>
-      <source src={vedios} type='video/mp4' />
-    </video>
+    <img src={wallpeper} alt="homeIng" className='into-img' />
+   
    </div>
 
   <div >

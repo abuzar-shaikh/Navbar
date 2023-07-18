@@ -1,0 +1,41 @@
+.about-heding{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    /* border: 1px solid red; */
+   margin: 20px;
+   padding: 20px;
+}
+.img-about-delail{
+   /* border: 1px solid red; */
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+   gap: 40px;
+   width: 90%;
+   margin: auto;
+}
+.about-photo{
+    /* border: 5px solid yellow; */
+    height: 250px;
+    width: 50%;
+}
+.about-detail{
+ /* border: 1px solid black; */
+ height: 250px;
+
+}
+.about-detail p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+@media screen and (max-width:640px){
+    .img-about-delail{
+        display: grid;
+        grid-template-columns: repeat(1,1fr); 
+        gap: 40px;
+        width: 90%;
+        margin: auto;
+     }
+
+}
